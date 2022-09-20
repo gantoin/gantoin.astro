@@ -18,7 +18,7 @@ specifiers:
   eslint: 8.23.1
   eslint-config-prettier: 8.5.0
   eslint-import-resolver-typescript: 3.5.1
-  eslint-plugin-astro: 0.17.1
+  eslint-plugin-astro: 0.19.0
   eslint-plugin-import: 2.26.0
   eslint-plugin-jsx-a11y: 6.6.1
   eslint-plugin-prettier: 4.2.1
@@ -51,7 +51,7 @@ devDependencies:
   eslint: 8.23.1
   eslint-config-prettier: 8.5.0_eslint@8.23.1
   eslint-import-resolver-typescript: 3.5.1_hdzsmr7kawaomymueo2tso6fjq
-  eslint-plugin-astro: 0.17.1_eslint@8.23.1
+  eslint-plugin-astro: 0.19.0_eslint@8.23.1
   eslint-plugin-import: 2.26.0_qidincc6lbiur5hfuez2qbs5ge
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.23.1
   eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
@@ -1205,20 +1205,6 @@ packages:
   /astring/1.8.3:
     resolution: {integrity: sha512-sRpyiNrx2dEYIMmUXprS8nlpRg2Drs8m9ElX9vVEXaCB4XEAJhKfs7IcX0IwShjuOAjLR6wzIrgoptz1n19i1A==}
     hasBin: true
-    dev: true
-
-  /astro-eslint-parser/0.5.1:
-    resolution: {integrity: sha512-es63TAA7vjgV8aI5pUOXqoxa9JHelqzFSk1qOVSCGkeoAMayrr7BdFt9waVWyXyIcOjTXJlQa1pM832bEaCS2Q==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    dependencies:
-      '@astrojs/compiler': 0.23.4
-      '@typescript-eslint/types': 5.38.0
-      debug: 4.3.4
-      eslint-visitor-keys: 3.3.0
-      espree: 9.4.0
-      synckit: 0.8.4
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /astro-eslint-parser/0.6.1:
@@ -2458,14 +2444,14 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-astro/0.17.1_eslint@8.23.1:
-    resolution: {integrity: sha512-G2S2zAaDokH2v7O+nzcd0iFskGJ1ohANhQpsFwaAqDPyn+GolFl4zSCnoQefLZ+ONEeZkZ8Jp7Imvbo3FI3LOA==}
+  /eslint-plugin-astro/0.19.0_eslint@8.23.1:
+    resolution: {integrity: sha512-XOvTgFlSThgUQwDMjbj9gTu75Sig5IWpseN1hsGputC9tiZ857CrMLK3UimWCwIS6n3hTYYPWIkpcucEU/o0Uw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
       '@typescript-eslint/types': 5.38.0
-      astro-eslint-parser: 0.5.1
+      astro-eslint-parser: 0.6.1
       eslint: 8.23.1
       eslint-utils: 3.0.0_eslint@8.23.1
       postcss: 8.4.16

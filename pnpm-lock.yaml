@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/image': 0.4.0
+  '@astrojs/image': 0.7.0
   '@astrojs/mdx': 0.11.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 1.0.1
@@ -34,7 +34,7 @@ specifiers:
   typescript: 4.8.3
 
 devDependencies:
-  '@astrojs/image': 0.4.0
+  '@astrojs/image': 0.7.0
   '@astrojs/mdx': 0.11.1_rollup@2.77.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 1.0.1
@@ -68,6 +68,10 @@ devDependencies:
 
 packages:
 
+  /@altano/tiny-async-pool/1.0.2:
+    resolution: {integrity: sha512-qQzaI0TBUPdpjZ3qo5b2ziQY9MSNpbziH2ZrE5lvtUZL+kn9GwVuVJwoOubaoNkeDB+rqEefnpu1k+oMpOCYiw==}
+    dev: true
+
   /@ampproject/remapping/2.2.0:
     resolution: {integrity: sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==}
     engines: {node: '>=6.0.0'}
@@ -80,9 +84,10 @@ packages:
     resolution: {integrity: sha512-vNZIa5Tf5nOqBEGJvM6xyYBnGcz4MAp+bBPnyVI0UYRjsIWlP7RgMdCpRV0OOh5kgh00BoAypGv27kcoJCMVfA==}
     dev: true
 
-  /@astrojs/image/0.4.0:
-    resolution: {integrity: sha512-DUXY9N91CvCskLJyKB9GQH4S8NoxVyQYHikmE8xx0haYbu8BgIX1fq/N5hN5+cNxkqLTKXKcHffY0lquwidSBg==}
+  /@astrojs/image/0.7.0:
+    resolution: {integrity: sha512-0P2Q0NbU1Y8iBDsJWes9qME2PHaiLOz8G7iFDJtWB+a42Ur/Awf9kxrBFX19siotR5kCX+9kTqZmhAp73SYRwQ==}
     dependencies:
+      '@altano/tiny-async-pool': 1.0.2
       image-size: 1.0.2
       magic-string: 0.25.9
       mime: 3.0.0

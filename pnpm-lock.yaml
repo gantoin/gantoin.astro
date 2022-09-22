@@ -12,7 +12,7 @@ specifiers:
   '@types/prettier': 2.7.0
   '@typescript-eslint/eslint-plugin': 5.38.0
   '@typescript-eslint/parser': 5.38.0
-  astro: 1.2.7
+  astro: 1.3.0
   astro-eslint-parser: 0.6.1
   autoprefixer: 10.4.11
   eslint: 8.23.1
@@ -45,7 +45,7 @@ devDependencies:
   '@types/prettier': 2.7.0
   '@typescript-eslint/eslint-plugin': 5.38.0_wsb62dxj2oqwgas4kadjymcmry
   '@typescript-eslint/parser': 5.38.0_irgkl5vooow2ydyo6aokmferha
-  astro: 1.2.7
+  astro: 1.3.0
   astro-eslint-parser: 0.6.1
   autoprefixer: 10.4.11_postcss@8.4.16
   eslint: 8.23.1
@@ -98,15 +98,15 @@ packages:
       sharp: 0.30.7
     dev: true
 
-  /@astrojs/language-server/0.23.1:
-    resolution: {integrity: sha512-JdUX9svL61x7xzMADfOUF3gvsE1xDhN1po73TQR0Qoh7qQxneS7k5KdMHiXA+MAQSZuaP68YscNEgwexqYrt+A==}
+  /@astrojs/language-server/0.26.2:
+    resolution: {integrity: sha512-9nkfdd6CMXLDIJojnwbYu5XrYfOI+g63JlktOlpFCwFjFNpm1u0e/+pXXmj6Zs+PkSTo0kV1UM77dRKRS5OC1Q==}
     hasBin: true
     dependencies:
       '@vscode/emmet-helper': 2.8.4
+      events: 3.3.0
       prettier: 2.7.1
       prettier-plugin-astro: 0.5.4
       source-map: 0.7.4
-      typescript: 4.6.4
       vscode-css-languageservice: 6.0.1
       vscode-html-languageservice: 5.0.1
       vscode-languageserver: 8.0.2
@@ -116,14 +116,15 @@ packages:
       vscode-uri: 3.0.3
     dev: true
 
-  /@astrojs/markdown-remark/1.1.1:
-    resolution: {integrity: sha512-eOvrqejecgeRLUXOdBfb0VoMppe7J80TlazaDnu4tVDdTG4nyuspO0CTPr9nzt6rbW5iLIh4KEUUuOk+z8n8uQ==}
+  /@astrojs/markdown-remark/1.1.2:
+    resolution: {integrity: sha512-afZWKRX7HFq1DdXq1jsUiqYee67Ln0Qan0yNgjNP2Nht0dxYD6JAK40+uiptKiRmP73cQjAVLGh54sgrruBDwA==}
     dependencies:
       '@astrojs/micromark-extension-mdx-jsx': 1.0.3
       '@astrojs/prism': 1.0.1
       acorn: 8.8.0
       acorn-jsx: 5.3.2_acorn@8.8.0
       github-slugger: 1.4.0
+      hast-util-to-html: 8.0.3
       mdast-util-mdx-expression: 1.3.0
       mdast-util-mdx-jsx: 1.2.0
       micromark-extension-mdx-expression: 1.0.3
@@ -1214,14 +1215,14 @@ packages:
       - supports-color
     dev: true
 
-  /astro/1.2.7:
-    resolution: {integrity: sha512-Zz0xwf/xL0Vb0I6bd9gZW6CGrn+N7uaTGrcsNt/zCGhQ2nLE/lEqro2QUZeCrxQ8hLrTuXB9KirWOK6gXq+LKA==}
+  /astro/1.3.0:
+    resolution: {integrity: sha512-cWBtLkkUcj38J0knrTaZvyoVFJxjOAWPRbECIXFxvGZ/ASNr+FNumeUk/u3uAGIF0pbqEgc+5zAvmPoe0pCd9w==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 0.24.0
-      '@astrojs/language-server': 0.23.1
-      '@astrojs/markdown-remark': 1.1.1
+      '@astrojs/language-server': 0.26.2
+      '@astrojs/markdown-remark': 1.1.2
       '@astrojs/telemetry': 1.0.0
       '@astrojs/webapi': 1.0.0
       '@babel/core': 7.18.13
@@ -1271,6 +1272,7 @@ packages:
       strip-ansi: 7.0.1
       supports-esm: 1.0.0
       tsconfig-resolver: 3.0.1
+      typescript: 4.8.3
       unist-util-visit: 4.1.1
       vfile: 5.3.4
       vite: 3.1.3
@@ -2691,6 +2693,11 @@ packages:
   /esutils/2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /events/3.3.0:
+    resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
+    engines: {node: '>=0.8.x'}
     dev: true
 
   /execa/6.1.0:
@@ -5856,12 +5863,6 @@ packages:
   /type-fest/2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
-    dev: true
-
-  /typescript/4.6.4:
-    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /typescript/4.8.3:

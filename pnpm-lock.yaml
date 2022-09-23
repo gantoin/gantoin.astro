@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/image': 0.7.0
+  '@astrojs/image': 0.7.1
   '@astrojs/mdx': 0.11.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.1
@@ -34,7 +34,7 @@ specifiers:
   typescript: 4.8.3
 
 devDependencies:
-  '@astrojs/image': 0.7.0
+  '@astrojs/image': 0.7.1
   '@astrojs/mdx': 0.11.1_rollup@2.78.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.1_tailwindcss@3.1.8
@@ -88,8 +88,8 @@ packages:
     resolution: {integrity: sha512-xZ81C/oMfExdF18I1Tyd2BKKzBqO+qYYctSy4iCwH4UWSo/4Y8A8MAzV1hG67uuE7hFRourSl6H5KUbhyChv/A==}
     dev: true
 
-  /@astrojs/image/0.7.0:
-    resolution: {integrity: sha512-0P2Q0NbU1Y8iBDsJWes9qME2PHaiLOz8G7iFDJtWB+a42Ur/Awf9kxrBFX19siotR5kCX+9kTqZmhAp73SYRwQ==}
+  /@astrojs/image/0.7.1:
+    resolution: {integrity: sha512-T7oNQUwkQ848zZARZZy8TxyTRcgMl0B0+bcHKrXudOr3gpjLFyY+NPR7QTCFq2PnNGA48wUGi4MeX/fu1ASPEw==}
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
       image-size: 1.0.2

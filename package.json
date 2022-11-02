@@ -23,7 +23,7 @@
 		"@typescript-eslint/parser": "5.42.0",
 		"astro": "1.6.2",
 		"astro-eslint-parser": "0.6.2",
-		"autoprefixer": "10.4.12",
+		"autoprefixer": "10.4.13",
 		"eslint": "8.23.1",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-import-resolver-typescript": "3.5.1",

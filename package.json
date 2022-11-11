@@ -16,7 +16,7 @@
 		"@astrojs/tailwind": "2.0.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/line-clamp": "0.4.2",
-		"@tailwindcss/typography": "0.5.7",
+		"@tailwindcss/typography": "0.5.8",
 		"@types/eslint": "8.4.9",
 		"@types/prettier": "2.7.0",
 		"@typescript-eslint/eslint-plugin": "5.42.0",

@@ -12,7 +12,7 @@ specifiers:
   '@types/prettier': 2.7.0
   '@typescript-eslint/eslint-plugin': 5.42.1
   '@typescript-eslint/parser': 5.42.1
-  astro: 1.6.7
+  astro: 1.6.9
   astro-eslint-parser: 0.6.2
   autoprefixer: 10.4.13
   eslint: 8.27.0
@@ -45,7 +45,7 @@ devDependencies:
   '@types/prettier': 2.7.0
   '@typescript-eslint/eslint-plugin': 5.42.1_q65vifpjz32hcrp4pjlnvoe5qi
   '@typescript-eslint/parser': 5.42.1_ciqzk3345glprn4wdzy7y3tjny
-  astro: 1.6.7
+  astro: 1.6.9
   astro-eslint-parser: 0.6.2
   autoprefixer: 10.4.13_postcss@8.4.16
   eslint: 8.27.0
@@ -86,6 +86,10 @@ packages:
 
   /@astrojs/compiler/0.29.11:
     resolution: {integrity: sha512-iNJMknLhALllV69eSsdDK9o+xEPOiOaCKN9Sv5VK33cbOmcRI8ICFaUN8lMIQnVSXWyKFvX1o9w08PivJ24NfQ==}
+    dev: true
+
+  /@astrojs/compiler/0.29.17:
+    resolution: {integrity: sha512-6ZbRGVunUMHxROD9Cleqkrfrj/kM9o43nLVwycdxCexCB5G372evy2ZM46LhaG/k5B5yC0PByNHTaGny0ll3iQ==}
     dev: true
 
   /@astrojs/image/0.7.1:
@@ -1224,12 +1228,12 @@ packages:
       - supports-color
     dev: true
 
-  /astro/1.6.7:
-    resolution: {integrity: sha512-xx910blM5qfSMyesmVmuhXqKMIOa2WL/WTSfYv84pB9JocgtAfGKlmS1HZNqWd0h9YLreYbGRzXhbtv2Qfd8vw==}
+  /astro/1.6.9:
+    resolution: {integrity: sha512-KXFKXobe8MIYl4gduUPLcAazMz+thox6N1pOv3F3QMbJS5rMRXkWloVK/6XebBO7p3DYkOfOGB4qA9ijTc4ftA==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.29.11
+      '@astrojs/compiler': 0.29.17
       '@astrojs/language-server': 0.28.3
       '@astrojs/markdown-remark': 1.1.3
       '@astrojs/telemetry': 1.0.1
@@ -1286,11 +1290,12 @@ packages:
       typescript: 4.8.3
       unist-util-visit: 4.1.1
       vfile: 5.3.4
-      vite: 3.2.2
-      vitefu: 0.1.0_vite@3.2.2
+      vite: 3.2.4
+      vitefu: 0.2.1_vite@3.2.4
       yargs-parser: 21.1.1
       zod: 3.18.0
     transitivePeerDependencies:
+      - '@types/node'
       - less
       - sass
       - stylus
@@ -6150,17 +6155,20 @@ packages:
       vfile-message: 3.1.2
     dev: true
 
-  /vite/3.2.2:
-    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
+  /vite/3.2.4:
+    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -6180,16 +6188,15 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.1.0_vite@3.2.2:
-    resolution: {integrity: sha512-5MQSHP9yr0HIve8q4XNb7QXfO1P4tzZDZP99qH0FM5ClcwYddeGXRDQ4TQYRUeXLjZ+vLecirHtGNpwFFUF7sw==}
+  /vitefu/0.2.1_vite@3.2.4:
+    resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
     peerDependenciesMeta:
       vite:
         optional: true
     dependencies:
-      import-meta-resolve: 2.1.0
-      vite: 3.2.2
+      vite: 3.2.4
     dev: true
 
   /vscode-css-languageservice/6.0.1:

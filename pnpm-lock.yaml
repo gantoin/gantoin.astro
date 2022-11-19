@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/image': 0.7.1
   '@astrojs/mdx': 0.11.1
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.0.1
+  '@astrojs/tailwind': 2.1.2
   '@tailwindcss/aspect-ratio': 0.4.2
   '@tailwindcss/line-clamp': 0.4.2
   '@tailwindcss/typography': 0.5.8
@@ -37,7 +37,7 @@ devDependencies:
   '@astrojs/image': 0.7.1
   '@astrojs/mdx': 0.11.1_rollup@2.79.1
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.0.1_tailwindcss@3.1.8
+  '@astrojs/tailwind': 2.1.2_tailwindcss@3.1.8
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.1.8
   '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.1.8
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.1.8
@@ -203,14 +203,14 @@ packages:
       zod: 3.18.0
     dev: true
 
-  /@astrojs/tailwind/2.0.1_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-fvruoVEvx0zQsVY2AVRrhvH25zp6xTF8Wb1Lu43KXLoxU7fHIB1fcTTRP+Qhd4f5EvuTmuPKaKwHmbrv8mTV9A==}
+  /@astrojs/tailwind/2.1.2_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-nIrlT+WWp/Wv2VQ29Nvncq608E+j3qB9k1f7yiAjY2ijxizZo4OnQzdRPQcIjIZHL5YxPtzbcoSP2u3v+Domqw==}
     peerDependencies:
       tailwindcss: ^3.0.24
     dependencies:
       '@proload/core': 0.3.3
-      autoprefixer: 10.4.13_postcss@8.4.16
-      postcss: 8.4.16
+      autoprefixer: 10.4.13_postcss@8.4.18
+      postcss: 8.4.18
       tailwindcss: 3.1.8_postcss@8.4.16
     dev: true
 
@@ -1328,6 +1328,22 @@ packages:
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.16
+      postcss-value-parser: 4.2.0
+    dev: true
+
+  /autoprefixer/10.4.13_postcss@8.4.18:
+    resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: 4.21.4
+      caniuse-lite: 1.0.30001429
+      fraction.js: 4.2.0
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.18
       postcss-value-parser: 4.2.0
     dev: true
 

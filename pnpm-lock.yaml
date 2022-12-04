@@ -9,7 +9,7 @@ specifiers:
   '@tailwindcss/line-clamp': 0.4.2
   '@tailwindcss/typography': 0.5.8
   '@types/eslint': 8.4.10
-  '@types/prettier': 2.7.0
+  '@types/prettier': 2.7.1
   '@typescript-eslint/eslint-plugin': 5.42.1
   '@typescript-eslint/parser': 5.42.1
   astro: 1.6.9
@@ -24,7 +24,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   postcss: 8.4.16
   postcss-html: 1.5.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   prettier-plugin-astro: 0.7.0
   prettier-plugin-tailwindcss: 0.1.13
   stylelint: 14.14.1
@@ -42,7 +42,7 @@ devDependencies:
   '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.1.8
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.1.8
   '@types/eslint': 8.4.10
-  '@types/prettier': 2.7.0
+  '@types/prettier': 2.7.1
   '@typescript-eslint/eslint-plugin': 5.42.1_5gcjj6prpyivqnqxif45a6no3m
   '@typescript-eslint/parser': 5.42.1_s5ps7njkmjlaqajutnox5ntcla
   astro: 1.6.9
@@ -54,12 +54,12 @@ devDependencies:
   eslint-plugin-astro: 0.19.0_eslint@8.29.0
   eslint-plugin-import: 2.26.0_ffckerg7m4n2ipbrkz23wl26tu
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.29.0
-  eslint-plugin-prettier: 4.2.1_sbc7b7g2fsh6irrgw57vvjzmvq
+  eslint-plugin-prettier: 4.2.1_nrhoyyjffvfyk4vtlt5destxgm
   postcss: 8.4.16
   postcss-html: 1.5.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   prettier-plugin-astro: 0.7.0
-  prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
+  prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
   stylelint: 14.14.1
   stylelint-config-prettier: 9.0.3_stylelint@14.14.1
   stylelint-config-standard: 28.0.0_stylelint@14.14.1
@@ -108,7 +108,7 @@ packages:
     dependencies:
       '@vscode/emmet-helper': 2.8.4
       events: 3.3.0
-      prettier: 2.7.1
+      prettier: 2.8.0
       prettier-plugin-astro: 0.7.0
       source-map: 0.7.4
       vscode-css-languageservice: 6.0.1
@@ -871,8 +871,8 @@ packages:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
     dev: true
 
-  /@types/prettier/2.7.0:
-    resolution: {integrity: sha512-RI1L7N4JnW5gQw2spvL7Sllfuf1SaHdrZpCHiBlCXjIlufi1SMNnbu2teze3/QE67Fg2tBlH7W+mi4hVNk4p0A==}
+  /@types/prettier/2.7.1:
+    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
     dev: true
 
   /@types/resolve/1.20.2:
@@ -2551,7 +2551,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_sbc7b7g2fsh6irrgw57vvjzmvq:
+  /eslint-plugin-prettier/4.2.1_nrhoyyjffvfyk4vtlt5destxgm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2564,7 +2564,7 @@ packages:
     dependencies:
       eslint: 8.29.0
       eslint-config-prettier: 8.5.0_eslint@8.29.0
-      prettier: 2.7.1
+      prettier: 2.8.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -4993,22 +4993,22 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
       '@astrojs/compiler': 0.29.11
-      prettier: 2.7.1
+      prettier: 2.8.0
       sass-formatter: 0.7.5
       synckit: 0.8.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.13_prettier@2.7.1:
+  /prettier-plugin-tailwindcss/0.1.13_prettier@2.8.0:
     resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.7.1
+      prettier: 2.8.0
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

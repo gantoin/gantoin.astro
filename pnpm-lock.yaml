@@ -26,7 +26,7 @@ specifiers:
   postcss-html: 1.5.0
   prettier: 2.8.0
   prettier-plugin-astro: 0.7.0
-  prettier-plugin-tailwindcss: 0.1.13
+  prettier-plugin-tailwindcss: 0.2.1
   stylelint: 14.14.1
   stylelint-config-prettier: 9.0.3
   stylelint-config-standard: 28.0.0
@@ -59,7 +59,7 @@ devDependencies:
   postcss-html: 1.5.0
   prettier: 2.8.0
   prettier-plugin-astro: 0.7.0
-  prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
+  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.0
   stylelint: 14.14.1
   stylelint-config-prettier: 9.0.3_stylelint@14.14.1
   stylelint-config-standard: 28.0.0_stylelint@14.14.1
@@ -4998,8 +4998,8 @@ packages:
       synckit: 0.8.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.13_prettier@2.8.0:
-    resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.0:
+    resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'

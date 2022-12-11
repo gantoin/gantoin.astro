@@ -24,7 +24,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   postcss: 8.4.16
   postcss-html: 1.5.0
-  prettier: 2.8.0
+  prettier: 2.8.1
   prettier-plugin-astro: 0.7.0
   prettier-plugin-tailwindcss: 0.2.1
   stylelint: 14.14.1
@@ -54,12 +54,12 @@ devDependencies:
   eslint-plugin-astro: 0.19.0_eslint@8.29.0
   eslint-plugin-import: 2.26.0_ffckerg7m4n2ipbrkz23wl26tu
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.29.0
-  eslint-plugin-prettier: 4.2.1_nrhoyyjffvfyk4vtlt5destxgm
+  eslint-plugin-prettier: 4.2.1_5dgjrgoi64tgrv3zzn3walur3u
   postcss: 8.4.16
   postcss-html: 1.5.0
-  prettier: 2.8.0
+  prettier: 2.8.1
   prettier-plugin-astro: 0.7.0
-  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.0
+  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
   stylelint: 14.14.1
   stylelint-config-prettier: 9.0.3_stylelint@14.14.1
   stylelint-config-standard: 28.0.0_stylelint@14.14.1
@@ -108,7 +108,7 @@ packages:
     dependencies:
       '@vscode/emmet-helper': 2.8.4
       events: 3.3.0
-      prettier: 2.8.0
+      prettier: 2.8.1
       prettier-plugin-astro: 0.7.0
       source-map: 0.7.4
       vscode-css-languageservice: 6.0.1
@@ -2551,7 +2551,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_nrhoyyjffvfyk4vtlt5destxgm:
+  /eslint-plugin-prettier/4.2.1_5dgjrgoi64tgrv3zzn3walur3u:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2564,7 +2564,7 @@ packages:
     dependencies:
       eslint: 8.29.0
       eslint-config-prettier: 8.5.0_eslint@8.29.0
-      prettier: 2.8.0
+      prettier: 2.8.1
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -4993,22 +4993,22 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
       '@astrojs/compiler': 0.29.11
-      prettier: 2.8.0
+      prettier: 2.8.1
       sass-formatter: 0.7.5
       synckit: 0.8.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.0:
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.1:
     resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.8.0
+      prettier: 2.8.1
     dev: true
 
-  /prettier/2.8.0:
-    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
